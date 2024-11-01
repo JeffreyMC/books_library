@@ -47,7 +47,7 @@ public class Menu {
         while(option != "0"){
             System.out.println(menu);
             option = scanner.nextLine();
-            scanner.nextLine();
+
 
             switch (option){
                 case "1" -> getBookByTitle();
